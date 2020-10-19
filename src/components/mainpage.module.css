@@ -1,0 +1,36 @@
+.wrap {
+    overflow-y: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.wrap > div{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 34%;
+    height: 100%;
+}
+
+.wrap > div:first-child{
+    background-color: rgb(34, 34, 36);
+}
+
+.wrap > div:nth-child(2) {
+    background-color: #171719;
+}
+
+.wrap > div:last-child{
+    background-color: black;
+}
+
+.wrap a {
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+
